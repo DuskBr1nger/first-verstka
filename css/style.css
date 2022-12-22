@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body,
+html {
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+  background-color: #e8e8e8;
+  width: 1440px;
+  height: 1700px;
+}
+.travel {
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #273d46;
+  margin-top: 168px;
+  margin-bottom: 8px;
+  margin-left: 549px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Times New Roman";
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #273d46;
+  margin-left: 206px;
+  margin-right: 268px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.image {
+  width: 841px;
+  height: 561px;
+  margin: auto;
+  margin-bottom: 107px;
+  margin-left: 157px;
+
+  box-shadow: 0px 15px 65px 0px rgba(15, 16, 16, 0.15);
+  background: url("../img/img.jpg") center/ auto auto no-repeat;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #273d46;
+  opacity: 0.8;
+  margin-left: 192px;
+  margin-right: 288px;
+  margin-bottom: 50px;
+}
+.content {
+  background: url("../img/ellipse_1_copy_4.png") 0 0 / auto auto no-repeat;
+  overflow: visible;
+  margin-left: 142px;
+  margin-top: 106px;
+}
+.spisok li {
+  background: url("../img/list.png") left 5px no-repeat;
+  padding: 0px 0px 0px 36px;
+  margin-left: 330px;
+}
+.li1 {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  color: #273d46;
+}
+.li2 {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #80b7b3;
+}
+.li3 {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #273d46;
+}
+.li4 {
+  opacity: 0.3;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #273d46;
+  margin-bottom: 50px;
+}
+.text2 {
+  margin-top: 30px;
+}
+
+.button1 {
+  width: 199px;
+  height: 44px;
+  background: url("../img/strelka.png") 151px 15px no-repeat,
+    url("../img/full_story_8.png") 21px 17px / auto auto no-repeat,
+    url("../img/https___wwwmarkupeasyru_projects_p_20221222012411_2313_20221222012425670_css_template_7.png_1671661465670rounded_rectangle_1_7.png")
+      no-repeat;
+  border: 0px;
+  margin-left: 330px;
+}
